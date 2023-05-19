@@ -13,4 +13,7 @@ class ExampleTest extends TestCase
     {
         $this->assertTrue(true);
     }
+    public function testing(){
+        $this->assertEquals(1,1);
+       }
 }
